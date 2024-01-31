@@ -1,4 +1,5 @@
 #!/bin/bash
+javac src/App.java -d lib      
 mkdir $1 
 mkdir $1/bin
 mkdir $1/lib
