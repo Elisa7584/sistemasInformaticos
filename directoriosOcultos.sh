@@ -23,12 +23,12 @@ then
         if [ $VISIBILIDAD == '-o' ];
         then
             echo 'es oculto'
-            mvdir $NOMBREDIR .$NOMBREDIR
+            mv $NOMBREDIR .$NOMBREDIR
             NOMBREDIR=.$NOMBREDIR
         elif [ $VISIBILIDAD == '-v' ];
         then
             echo 'es visible'
-            mvdir .$NOMBREDIR $NOMBREDIR
+            mv .$NOMBREDIR $NOMBREDIR
         fi
     fi
 
